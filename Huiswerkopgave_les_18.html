@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naaldwijk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #content {
+        margin-top: 20px;
+      }
+
+      [class*="col-"] {
+        width: 100%;
+      }
+      @media only screen and (min-width: 768px) {
+        [class*="col-"] {
+          float: left;
+          padding: 15px;
+        }
+
+        .col-1 {
+          width: 8.33%;
+        }
+
+        .col-2 {
+          width: 16.66%;
+        }
+
+        .col-3 {
+          width: 25%;
+        }
+
+        .col-4 {
+          width: 33.33%;
+        }
+
+        .col-5 {
+          width: 41.66%;
+        }
+
+        .col-6 {
+          width: 50%;
+        }
+
+        .col-7 {
+          width: 58.33%;
+        }
+
+        .col-8 {
+          width: 66.66%;
+        }
+
+        .col-9 {
+          width: 75%;
+        }
+
+        .col-10 {
+          width: 83.33%;
+        }
+
+        .col-11 {
+          width: 91.66%;
+        }
+
+        .col-12 {
+          width: 100%;
+        }
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      header {
+        height: 200px;
+        background-image: url("Naaldwijk.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 52%;
+        background-position-x: center;
+        font-family: "Pacifico", cursive;
+        text-shadow: rgb(155, 155, 155) 2px 2px 2px;
+        color: rgb(0, 0, 0);
+        padding: 0 5px 5px 5px;
+        text-align: center;
+        font-size: 70px;
+      }
+
+      .header-title {
+        padding-top: 35px;
+        font-size: 70px;
+      }
+
+      #een {
+        min-height: 800px;
+        background-color: rgb(236, 236, 236);
+        margin: 5px;
+        text-align: center;
+      }
+
+      .wistjedat {
+        font-family: "Pacifico", cursive;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-shadow: rgb(155, 155, 155) 2px 2px 2px;
+        margin-top: auto;
+        padding-top: 20px;
+      }
+
+      .feitje {
+        width: auto;
+        height: auto;
+        background-color: antiquewhite;
+        font-family: "Pacifico", cursive;
+        border-radius: 0%;
+        padding: 10px;
+        margin: 10px 10px;
+        border: dotted 3px rgb(59, 73, 50);
+        font-family: "Pacifico", cursive;
+        color: rgb(0, 0, 0);
+      }
+
+      #twee {
+        height: auto;
+        background-color: rgb(59, 73, 50);
+        margin: 5px;
+      }
+
+      .koppen {
+        font-family: "Pacifico", cursive;
+        color: rgb(0, 0, 0);
+        text-shadow: rgb(155, 155, 155) 2px 2px 2px;
+      }
+
+      .artikel {
+        width: auto;
+        min-height: 300px;
+        background-color: antiquewhite;
+        display: inline-block;
+        padding: 20px;
+        margin: 25px;
+        
+      }
+
+      img {
+        max-width: 30%;
+        height: auto;
+        float: right;
+        border: thick solid white;
+        margin: 10px;
+      }
+
+      footer {
+        width: 100%;
+        height: 200px;
+        background-image: url("Naaldwijk.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: bottom;
+        background-position-x: center;
+        padding: 0px 5px 5px 5px;
+        text-align: center;
+        display: inline-block;
+        margin-top: 20px;
+      
+      }
+
+      @media only screen and (min-width: 992px) {
+        body {
+          background-color: rgb(255, 255, 255);
+          color: rgb(0, 0, 0);
+          font-size: medium;
+        }
+        #een {
+          background-color: rgb(255, 255, 255);
+        }
+        #twee {
+          background-color: rgb(110, 58, 54);
+        }
+        .feitje {
+          border: dotted 3px  rgb(110, 58, 54);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>Naaldwijk
+    </header>
+    <div id="content">
+      <div class="row">
+        <div class="col-2">
+          <section id="een">
+            <h1 class="wistjedat">Wist je dat...</h1>
+            <br />
+            <div class="feitje">
+              Naaldwijk is een plaats met 22.130 inwoners (2021)
+            </div>
+            <br />
+            <div class="feitje">
+              Naaldwijk heeft een theater genaamd 'Westland-Theater De Naald'
+            </div>
+            <br />
+            <div class="feitje">
+              In de Romeinse tijd liep de Maas langs Naaldwijk
+            </div>
+            <br />
+            <div class="feitje">
+              'De Tuinen' is een overdekt winkelcentrum in het centrum van
+              Naaldwijk
+            </div>
+            <br />
+            <div class="feitje">Naaldwijk telt 8 wijken en buurten</div>
+            <br />
+          </section>
+        </div>
+
+        <div class="col-9">
+          <section id="twee">
+            <div class="artikel">
+              <h1 class="koppen">Het Heilige Geest Hofje</h1>
+              <img
+                src="Naaldwijk_hofje.jpg"
+                class="hofje"
+                alt="heiligegeesthofje"
+              />
+              <p>
+                Het Heilige Geesthofje is een hofje in Naaldwijk. De heer van
+                Naaldwijk, Hendrik IV van Naaldwijk, liet in 1496 in zijn
+                testament opnemen dat een som geld bestemd was voor de
+                inrichting van een huis voor vijf arme oude mannen. Het moest
+                gebouwd worden: op 't erff van de cuer te Naaldwijk langes de
+                kercklaan. Door het kerkelijk armbestuur werd het houten huis
+                later vervangen door vijf kleine huisjes. Frederik Hendrik van
+                Oranje liet, als heer van Naaldwijk, vijftien huisjes bouwen in
+                de vorm van een hofje. Daarvan waren er vijf voor mannen en tien
+                voor vrouwen (bron: Wikipedia).
+              </p>
+            </div>
+
+            <div class="artikel">
+              <h1 class="koppen">Het Tramhuisje</h1>
+              <img
+                src="WSM_station_Naaldwijk.jpg"
+                class="station"
+                alt="tramstationnaaldwijk"
+              />
+              <p>
+                Het tramstation in Naaldwijk is een tramstation van de
+                Westlandsche Stoomtramweg Maatschappij en dateert uit 1907. Dit
+                tramstation heeft tot de helft van de jaren 60 dienstgedaan en
+                werd gesloten doordat het vervoer over het spoor werd
+                overgenomen door het wegtransport en het station dus overbodig
+                was geworden (Bron: Wikipedia). Het Tramhuisje is tegenwoordig
+                in ere hersteld. Waar we vroeger wachtten op de stoomtram, blaas
+                je nu stoom af en geniet je van onze heerlijke koffie, thee,
+                lunch of borrel en high tea/wine aan de Verspycklaan 1 in
+                Naaldwijk. Het Tramhuisje is anno 2017 weer in gebruik als fijne
+                plek waar je bijpraat, een moment van rust pakt of een zakelijke
+                afspraak treft. Reserveren kan via de
+                <a href="https://www.tramhuisje.nl/" target="_blank">website</a>
+                (bron: Tramhuisje.nl).
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <footer></footer>
+  </body>
+</html>
